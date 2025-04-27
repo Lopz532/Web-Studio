@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Studio | Conectando ideas al mundo digital</title>
+  <link rel="stylesheet" href="/public/style.css">
+  <script defer src="/public/script.js"></script>
+</head>
+<body>
+  <header class="fade-in">
+    <div class="container">
+      <h1>Web Studio</h1>
+      <p class="slogan">Conectando ideas al mundo digital</p>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero fade-in">
+    <div class="container">
+      <h2>Bienvenido a Web Studio</h2>
+      <p>Creando sitios web modernos, funcionales y conectados a bases de datos.</p>
+    </div>
+  </section>
+
+  <section id="sobre" class="fade-in">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Jorge, desarrollador web apasionado por crear soluciones digitales a la medida de tus necesidades.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="fade-in">
+    <div class="container">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Desarrollo de páginas web</li>
+        <li>Integración de bases de datos</li>
+        <li>Optimización para móviles</li>
+        <li>Hosting y dominio</li>
+        <li>Posicionamiento SEO básico</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portafolio" class="fade-in">
+    <div class="container">
+      <h2>Portafolio</h2>
+      <p>Próximamente ejemplos de proyectos realizados.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="fade-in">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form id="contactForm" method="POST" action="/send">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="redes">
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="fade-in">
+    <div class="container">
+      <p>&copy; 2025 Web Studio | Todos los derechos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
